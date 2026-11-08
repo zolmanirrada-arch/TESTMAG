@@ -1,0 +1,17 @@
+TESTMAG — жаңартылған күлгін/ақ минималистік дизайн.
+
+ФОН СУРЕТІ:
+Өзіңіз жасаған суретті frontend/public/images/login-bg.png атауымен салыңыз.
+Сурет кіру, тіркелу және құпиясөзді қалпына келтіру беттерінде көрсетіледі.
+Ұсынылатын өлшем: 1920x1080 px. Мәтін мен форма суреттің үстіне шығады.
+
+ІСКЕ ҚОСУ:
+1) frontend ішінде cmd, cd frontend және npm run dev(npm install).
+2) backend ішінде cmd, cd backend және npm run dev(npm install), өзіңіздің backend/.env файлыңызды жасаңыз және npm start (немесе package.json scripts-ін қараңыз).
+3) MongoDB және email SMTP параметрлерін серверде орнатыңыз.
+
+ҚАУІПСІЗДІК:
+Бастапқы ZIP ішіндегі backend/.env құпия мәліметтері бұл архивке енгізілмеді.
+Бұрын жарияланған SMTP app password-ты жаңасына ауыстырыңыз.
+
+ЕСКЕРТУ: Бұл жоба React/Vite + Node.js/MongoDB. InfinityFree-дің PHP хостингінде Node.js backend іске қосылмайды.

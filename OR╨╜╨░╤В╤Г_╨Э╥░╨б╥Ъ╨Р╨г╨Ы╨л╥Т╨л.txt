@@ -1,0 +1,8 @@
+TESTMAG
+1. frontend/public/testmag.png файлын өзіңіз қосыңыз.
+2. backend/.env.example файлын backend/.env деп көшіріп, MongoDB, JWT_SECRET, SMTP және ADMIN_EMAIL орнатыңыз.
+3. frontend/.env.example файлын frontend/.env деп көшіріп, сервердің API URL мекенжайын көрсетіңіз.
+4. backend: npm install, npm start; frontend: npm install, npm run dev.
+5. Админ болып кіру үшін ADMIN_EMAIL мәніне сәйкес тіркелген аккаунтты пайдаланыңыз.
+6. Админ студентті мұғалімге ауыстырғаннан кейін пайдаланушы қайта кіруі керек.
+ЕСКЕРТУ: Бұл жоба Node.js + MongoDB + React/Vite; InfinityFree PHP-only хостингінде тікелей жұмыс істемейді.
