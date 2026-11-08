@@ -1,0 +1,2 @@
+const User=require('../models/User');
+module.exports=async(req,res,next)=>{try{const email=(process.env.ADMIN_EMAIL||'').trim().toLowerCase();if(!email)return res.status(503).json({message:'ADMIN_EMAIL бапталмаған'});const u=await User.findById(req.user.id);if(!u||u.email!==email)return res.status(403).json({message:'Администратор құқығы жоқ'});next();}catch(e){res.status(500).json({message:'Сервер қатесі'});}};
